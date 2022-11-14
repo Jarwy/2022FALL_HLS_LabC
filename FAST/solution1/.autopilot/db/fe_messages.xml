@@ -1,0 +1,495 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_ref.h:718:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_ref.h:732:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_ref.h:746:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="FAST/solution1/fast.cpp:5:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="fast_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=fast_accel" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="FAST/solution1/fast.cpp:5:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi depth=16384 port=img_in" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="FAST/solution1/fast.cpp:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi depth=16384 port=img_out" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="FAST/solution1/fast.cpp:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=threshold" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="FAST/solution1/fast.cpp:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=rows" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="FAST/solution1/fast.cpp:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_accel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=cols" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="FAST/solution1/fast.cpp:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_accel" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="FAST/solution1/fast.cpp:20:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fast_accel" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:713" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator&lt;&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator&lt;&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:711" msg_body="Inlining function 'bool ap_int_base&lt;16, false&gt;::operator&lt;&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator&lt;&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;16, false&gt;::operator&lt;&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator&lt;&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:924:16" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::ap_int_base(int)' into 'ap_int_base&lt;16, false&gt;::operator++(int)'">
+        <args Callee="ap_int_base&lt;1, false&gt;::ap_int_base(int)" Caller="ap_int_base&lt;16, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:925:12" msg_body="Inlining function 'ap_uint&lt;16&gt;::ap_uint&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::operator++(int)'">
+        <args Callee="ap_uint&lt;16&gt;::ap_uint&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:924:5" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;&amp; ap_int_base&lt;16, false&gt;::operator+=&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::operator++(int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;&amp; ap_int_base&lt;16, false&gt;::operator+=&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1558:371" msg_body="Inlining function 'ap_int&lt;17&gt;::ap_int&lt;17, true&gt;(ap_int_base&lt;17, true&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::div operator/&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int&lt;17&gt;::ap_int&lt;17, true&gt;(ap_int_base&lt;17, true&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::div operator/&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1655:2052" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::div operator/&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::div operator/&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1655:2050" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::div operator/&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::div operator/&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::div operator/&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::div operator/&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1559:371" msg_body="Inlining function 'ap_uint&lt;16&gt;::ap_uint&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::mod operator%&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;16&gt;::ap_uint&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::mod operator%&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1655:2573" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::mod operator%&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::mod operator%&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1655:2571" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::mod operator%&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::mod operator%&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::mod operator%&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::mod operator%&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:341" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::ap_int_base&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::ap_int_base&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:555" msg_body="Inlining function 'ap_int&lt;33&gt;::ap_int&lt;33, true&gt;(ap_int_base&lt;33, true&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int&lt;33&gt;::ap_int&lt;33, true&gt;(ap_int_base&lt;33, true&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:430" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1655:1531" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1655:1529" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::minus operator-&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:341" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::ap_int_base&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;)' into 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::ap_int_base&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;)" Caller="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:555" msg_body="Inlining function 'ap_int&lt;9&gt;::ap_int&lt;9, true&gt;(ap_int_base&lt;9, true&gt; const&amp;)' into 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)'">
+        <args Callee="ap_int&lt;9&gt;::ap_int&lt;9, true&gt;(ap_int_base&lt;9, true&gt; const&amp;)" Caller="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1541:430" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::ap_int_base&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;)' into 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::ap_int_base&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;)" Caller="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:339" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::ap_int_base&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::plus operator+&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::ap_int_base&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::plus operator+&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:551" msg_body="Inlining function 'ap_int&lt;33&gt;::ap_int&lt;33, true&gt;(ap_int_base&lt;33, true&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::plus operator+&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int&lt;33&gt;::ap_int&lt;33, true&gt;(ap_int_base&lt;33, true&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::plus operator+&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:427" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::plus operator+&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::ap_int_base&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::plus operator+&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1655:1006" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1655:1004" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::plus operator+&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;32, true&gt;::plus operator+&lt;16, false, 32, true&gt;(ap_int_base&lt;16, false&gt; const&amp;, ap_int_base&lt;32, true&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:713" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator&lt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator&lt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:711" msg_body="Inlining function 'bool ap_int_base&lt;8, false&gt;::operator&lt;&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator&lt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;8, false&gt;::operator&lt;&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator&lt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:339" msg_body="Inlining function 'ap_int_base&lt;9, false&gt;::ap_int_base&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;)' into 'ap_int_base&lt;8, false&gt;::RType&lt;1, false&gt;::plus operator+&lt;8, false, 1, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;1, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;9, false&gt;::ap_int_base&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;)" Caller="ap_int_base&lt;8, false&gt;::RType&lt;1, false&gt;::plus operator+&lt;8, false, 1, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;1, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:551" msg_body="Inlining function 'ap_uint&lt;9&gt;::ap_uint&lt;9, false&gt;(ap_int_base&lt;9, false&gt; const&amp;)' into 'ap_int_base&lt;8, false&gt;::RType&lt;1, false&gt;::plus operator+&lt;8, false, 1, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;1, false&gt; const&amp;)'">
+        <args Callee="ap_uint&lt;9&gt;::ap_uint&lt;9, false&gt;(ap_int_base&lt;9, false&gt; const&amp;)" Caller="ap_int_base&lt;8, false&gt;::RType&lt;1, false&gt;::plus operator+&lt;8, false, 1, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;1, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1540:427" msg_body="Inlining function 'ap_int_base&lt;9, false&gt;::ap_int_base&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)' into 'ap_int_base&lt;8, false&gt;::RType&lt;1, false&gt;::plus operator+&lt;8, false, 1, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;1, false&gt; const&amp;)'">
+        <args Callee="ap_int_base&lt;9, false&gt;::ap_int_base&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)" Caller="ap_int_base&lt;8, false&gt;::RType&lt;1, false&gt;::plus operator+&lt;8, false, 1, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;1, false&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:1853" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator==&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator==&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:1850" msg_body="Inlining function 'bool ap_int_base&lt;8, false&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator==&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;8, false&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator==&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:337" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator&gt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator&gt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:335" msg_body="Inlining function 'bool ap_int_base&lt;8, false&gt;::operator&gt;&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator&gt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;8, false&gt;::operator&gt;&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator&gt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:924:16" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::ap_int_base(int)' into 'ap_int_base&lt;8, false&gt;::operator++(int)'">
+        <args Callee="ap_int_base&lt;1, false&gt;::ap_int_base(int)" Caller="ap_int_base&lt;8, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:925:12" msg_body="Inlining function 'ap_uint&lt;8&gt;::ap_uint&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;)' into 'ap_int_base&lt;8, false&gt;::operator++(int)'">
+        <args Callee="ap_uint&lt;8&gt;::ap_uint&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;)" Caller="ap_int_base&lt;8, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:924:5" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;&amp; ap_int_base&lt;8, false&gt;::operator+=&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)' into 'ap_int_base&lt;8, false&gt;::operator++(int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;&amp; ap_int_base&lt;8, false&gt;::operator+=&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)" Caller="ap_int_base&lt;8, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:1093" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator&gt;=&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator&gt;=&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="E:/Xilinx_2021.2/Vitis_HLS/2021.2/common/technology/autopilot\ap_int_base.h:1810:1090" msg_body="Inlining function 'bool ap_int_base&lt;8, false&gt;::operator&gt;=&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator&gt;=&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;8, false&gt;::operator&gt;=&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator&gt;=&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:12:24" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:19:55" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::operator++(int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::operator++(int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:55:17" msg_body="Inlining function 'ap_uint&lt;16&gt;::ap_uint&lt;33&gt;(ap_int&lt;33&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;16&gt;::ap_uint&lt;33&gt;(ap_int&lt;33&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:55:18" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:54:17" msg_body="Inlining function 'bool operator==&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="bool operator==&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:52:21" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::operator unsigned long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::operator unsigned long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:52:26" msg_body="Inlining function 'ap_uint&lt;8&gt;::ap_uint(int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;8&gt;::ap_uint(int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:50:21" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::operator unsigned long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::operator unsigned long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:50:26" msg_body="Inlining function 'ap_uint&lt;8&gt;::ap_uint(int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;8&gt;::ap_uint(int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:49:17" msg_body="Inlining function 'bool operator&gt;=&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="bool operator&gt;=&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:44:49" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::operator++(int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::operator++(int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:46:24" msg_body="Inlining function 'bool operator&gt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="bool operator&gt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:46:14" msg_body="Inlining function 'bool operator==&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="bool operator==&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:45:16" msg_body="Inlining function 'ap_uint&lt;8&gt;::ap_uint&lt;9&gt;(ap_uint&lt;9&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;8&gt;::ap_uint&lt;9&gt;(ap_uint&lt;9&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:45:20" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;1, false&gt;::plus operator+&lt;8, false, 1, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;1, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;1, false&gt;::plus operator+&lt;8, false, 1, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;1, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:45:27" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::operator unsigned long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::operator unsigned long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:44:44" msg_body="Inlining function 'bool operator&lt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="bool operator&lt;&lt;8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:44:40" msg_body="Inlining function 'ap_uint&lt;8&gt;::ap_uint(int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;8&gt;::ap_uint(int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:43:21" msg_body="Inlining function 'ap_uint&lt;8&gt;::ap_uint(int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;8&gt;::ap_uint(int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:40:20" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:14:39" msg_body="Inlining function 'ap_uint&lt;16&gt;::ap_uint(int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;16&gt;::ap_uint(int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:40:24" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:40:37" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:40:28" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:40:30" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:39:20" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:14:44" msg_body="Inlining function 'bool operator&lt;&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="bool operator&lt;&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:39:24" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:39:37" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:39:28" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:39:30" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:38:20" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:16:18" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::operator unsigned long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::operator unsigned long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:38:24" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:38:37" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:38:28" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:38:30" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:37:20" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:16:6" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::operator unsigned long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::operator unsigned long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:37:24" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:37:37" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:37:28" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:37:30" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:36:20" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:14:53" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::operator++(int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::operator++(int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:36:24" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:36:37" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:36:28" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:36:30" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:35:20" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:19:39" msg_body="Inlining function 'ap_uint&lt;16&gt;::ap_uint(int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;16&gt;::ap_uint(int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:35:24" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:35:37" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:35:28" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:35:30" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:34:19" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:19:46" msg_body="Inlining function 'bool operator&lt;&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="bool operator&lt;&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:34:23" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:34:36" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:34:27" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:34:29" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:33:19" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:21:26" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::operator unsigned long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::operator unsigned long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:33:23" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:33:36" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:33:27" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:33:29" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:32:19" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:22:20" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::div operator/&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::div operator/&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:32:23" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:32:36" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:32:27" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:32:29" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:31:19" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:22:18" msg_body="Inlining function 'ap_uint&lt;8&gt;::ap_uint&lt;17&gt;(ap_int&lt;17&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;8&gt;::ap_uint&lt;17&gt;(ap_int&lt;17&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:31:23" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:31:36" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:31:27" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:31:29" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:30:19" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:23:23" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::mod operator%&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::mod operator%&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:30:23" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:30:36" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:30:27" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:30:29" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:29:19" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:23:21" msg_body="Inlining function 'ap_uint&lt;8&gt;::ap_uint&lt;16&gt;(ap_uint&lt;16&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;8&gt;::ap_uint&lt;16&gt;(ap_uint&lt;16&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:29:23" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:29:36" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:29:27" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:29:29" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:28:19" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:25:29" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:28:23" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:28:34" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:28:27" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:28:29" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::minus operator-&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:27:19" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:25:27" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:27:23" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:27:36" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:27:27" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:27:29" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:26:19" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:25:36" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:26:23" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:26:34" msg_body="Inlining function 'ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;8, false&gt;::RType&lt;8, false&gt;::minus operator-&lt;8, false, 8, false&gt;(ap_int_base&lt;8, false&gt; const&amp;, ap_int_base&lt;8, false&gt; const&amp;)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:26:27" msg_body="Inlining function 'ap_int_base&lt;33, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;33, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:26:29" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::RType&lt;($_0)32, true&gt;::plus operator+&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:25:19" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(bool)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(bool)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:25:23" msg_body="Inlining function 'ap_int_base&lt;9, true&gt;::operator long long() const' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="ap_int_base&lt;9, true&gt;::operator long long() const" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:44:26" msg_body="Loop 'VITIS_LOOP_44_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_44_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:4:0" msg_body="Unrolling loop 'VITIS_LOOP_44_3' (FAST/solution1/fast.cpp:44:26) in function 'fast_accel' completely with a factor of 16">
+        <args Factor="16" LoopLoc="FAST/solution1/fast.cpp:44:26" LoopName="VITIS_LOOP_44_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:4:0" msg_body="Inlining function 'std::abs(long long)' into 'fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)'">
+        <args Callee="std::abs(long long)" Caller="fast_accel(ap_uint&lt;8&gt;*, int, ap_uint&lt;8&gt;*, int, int)"/>
+    </msg>
+    <msg msg_groups="AUTOMATION" msg_id="214-270" msg_severity="INFO" msg_loc="FAST/solution1/fast.cpp:11:8" msg_body="Inferring cyclic partitioning for array 'IMG' on dimension 1 with factor 27">
+        <args Dim="1" Factor="27" Mode="cyclic" Name="IMG"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

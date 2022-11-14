@@ -1,0 +1,113 @@
+Test: x=0.3918, y=0.8491, golden theta=1.1383, golden r=0.9355, your theta=1.1392, your r=0.9358
+Test: x=0.4688, y=0.8621, golden theta=1.0728, golden r=0.9815, your theta=1.0732, your r=0.9817
+Test: x=0.2495, y=0.4143, golden theta=1.0287, golden r=0.4838, your theta=1.0288, your r=0.4839
+Test: x=-0.1511, y=0.0303, golden theta=2.9434, golden r=0.1539, your theta=2.9453, your r=0.1553
+Test: x=0.2134, y=-0.0642, golden theta=-0.2915, golden r=0.2229, your theta=-0.2932, your r=0.2241
+Test: x=-0.4041, y=0.2021, golden theta=2.6772, golden r=0.4517, your theta=2.6768, your r=0.4519
+Test: x=0.4153, y=0.3044, golden theta=0.6324, golden r=0.5151, your theta=0.6338, your r=0.5159
+Test: x=0.1794, y=-0.4563, golden theta=-1.1956, golden r=0.4903, your theta=-1.1960, your r=0.4907
+Test: x=0.6335, y=0.3628, golden theta=0.5201, golden r=0.7303, your theta=0.5190, your r=0.7300
+Test: x=-0.4590, y=-0.1785, golden theta=-2.7708, golden r=0.4923, your theta=-2.7708, your r=0.4927
+Test: x=-0.2048, y=-0.3535, golden theta=-2.0959, golden r=0.4083, your theta=-2.0955, your r=0.4087
+Test: x=-0.8782, y=-0.4321, golden theta=-2.6844, golden r=0.9786, your theta=-2.6843, your r=0.9790
+Test: x=0.7341, y=-0.6375, golden theta=-0.7148, golden r=0.9722, your theta=-0.7156, your r=0.9727
+Test: x=-0.8230, y=-0.6104, golden theta=-2.5034, golden r=1.0244, your theta=-2.5032, your r=1.0249
+Test: x=0.5134, y=0.6689, golden theta=0.9160, golden r=0.8435, your theta=0.9165, your r=0.8433
+Test: x=0.1870, y=0.9836, golden theta=1.3829, golden r=1.0015, your theta=1.3828, your r=1.0012
+Test: x=-0.3704, y=0.3174, golden theta=2.4330, golden r=0.4878, your theta=2.4326, your r=0.4883
+Test: x=0.1785, y=0.4229, golden theta=1.1715, golden r=0.4591, your theta=1.1719, your r=0.4595
+Test: x=0.4041, y=0.7219, golden theta=1.0605, golden r=0.8275, your theta=1.0605, your r=0.8274
+Test: x=0.7690, y=-0.7271, golden theta=-0.7572, golden r=1.0583, your theta=-0.7571, your r=1.0591
+Test: x=-0.1174, y=0.5164, golden theta=1.7942, golden r=0.5296, your theta=1.7939, your r=0.5295
+Test: x=-0.2534, y=0.1050, golden theta=2.7482, golden r=0.2741, your theta=2.7485, your r=0.2742
+Test: x=-0.4514, y=0.6609, golden theta=2.1697, golden r=0.8004, your theta=2.1699, your r=0.8005
+Test: x=0.9966, y=-0.0364, golden theta=-0.0363, golden r=0.9974, your theta=-0.0369, your r=0.9973
+Test: x=-0.8330, y=0.1643, golden theta=2.9466, golden r=0.8491, your theta=2.9468, your r=0.8494
+Test: x=-0.4121, y=0.3569, golden theta=2.4275, golden r=0.5451, your theta=2.4277, your r=0.5464
+Test: x=-0.9331, y=0.4797, golden theta=2.6666, golden r=1.0492, your theta=2.6660, your r=1.0493
+Test: x=0.8345, y=-0.6748, golden theta=-0.6798, golden r=1.0733, your theta=-0.6799, your r=1.0740
+Test: x=0.1821, y=0.6394, golden theta=1.2932, golden r=0.6651, your theta=1.2935, your r=0.6653
+Test: x=-0.8611, y=0.1577, golden theta=2.9603, golden r=0.8752, your theta=2.9604, your r=0.8760
+Test: x=0.1545, y=0.1921, golden theta=0.8937, golden r=0.2467, your theta=0.8931, your r=0.2468
+Test: x=-0.5642, y=0.3137, golden theta=2.6339, golden r=0.6456, your theta=2.6333, your r=0.6460
+Test: x=0.8176, y=0.0005, golden theta=0.0006, golden r=0.8177, your theta=0.0010, your r=0.8184
+Test: x=-0.9563, y=-0.8853, golden theta=-2.3948, golden r=1.3031, your theta=-2.3948, your r=1.3032
+Test: x=-0.6274, y=-0.0337, golden theta=-3.0881, golden r=0.6283, your theta=-3.0867, your r=0.6294
+Test: x=0.7417, y=-0.2324, golden theta=-0.3035, golden r=0.7775, your theta=-0.3040, your r=0.7778
+Test: x=0.5662, y=-0.2554, golden theta=-0.4235, golden r=0.6213, your theta=-0.4236, your r=0.6216
+Test: x=0.8796, y=0.2834, golden theta=0.3117, golden r=0.9244, your theta=0.3115, your r=0.9243
+Test: x=0.1870, y=-0.4937, golden theta=-1.2084, golden r=0.5279, your theta=-1.2083, your r=0.5286
+Test: x=-0.6643, y=0.8523, golden theta=2.2327, golden r=1.0806, your theta=2.2329, your r=1.0813
+Test: x=-0.8110, y=0.8162, golden theta=2.3530, golden r=1.1506, your theta=2.3516, your r=1.1504
+Test: x=-0.8645, y=0.2383, golden theta=2.8725, golden r=0.8967, your theta=2.8721, your r=0.8970
+Test: x=0.7573, y=0.6853, golden theta=0.7355, golden r=1.0216, your theta=0.7349, your r=1.0212
+Test: x=0.5427, y=0.7563, golden theta=0.9483, golden r=0.9311, your theta=0.9487, your r=0.9312
+Test: x=-0.3716, y=0.8633, golden theta=1.9771, golden r=0.9399, your theta=1.9766, your r=0.9399
+Test: x=-0.5640, y=0.3931, golden theta=2.5326, golden r=0.6875, your theta=2.5327, your r=0.6877
+Test: x=-0.0247, y=-0.5710, golden theta=-1.6136, golden r=0.5715, your theta=-1.6130, your r=0.5718
+Test: x=0.7820, y=-0.3640, golden theta=-0.4355, golden r=0.8627, your theta=-0.4358, your r=0.8628
+Test: x=-0.8267, y=0.7468, golden theta=2.4068, golden r=1.1140, your theta=2.4067, your r=1.1143
+Test: x=-0.9800, y=-0.4294, golden theta=-2.7287, golden r=1.0698, your theta=-2.7283, your r=1.0701
+---RMS error----------------------------------
+----------------------------------------------
+   RMSE(R)           RMSE(Theta)
+0.000507320335601 0.000636128766928
+----------------------------------------------
+
+E:\NTU\111_1\HLS\LabC\CORDIC\solution1\sim\verilog>set PATH= 
+
+E:\NTU\111_1\HLS\LabC\CORDIC\solution1\sim\verilog>call E:/Xilinx_2021.2/Vivado/2021.2/bin/xelab xil_defaultlib.apatb_cordiccart2pol_top glbl -Oenable_linking_all_libraries  -prj cordiccart2pol.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_0_19 -L floating_point_v7_1_13 --lib "ieee_proposed=./ieee_proposed" -s cordiccart2pol -debug wave 
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx_2021.2/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_cordiccart2pol_top glbl -Oenable_linking_all_libraries -prj cordiccart2pol.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_19 -L floating_point_v7_1_13 --lib ieee_proposed=./ieee_proposed -s cordiccart2pol -debug wave 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/AESL_axi_slave_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/cordiccart2pol.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_cordiccart2pol_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/cordiccart2pol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordiccart2pol
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/cordiccart2pol_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordiccart2pol_control_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/cordiccart2pol_cordiccart2pol_Pipeline_VITIS_LOOP_29_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordiccart2pol_cordiccart2pol_Pipeline_VITIS_LOOP_29_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/cordiccart2pol_cordiccart2pol_Pipeline_VITIS_LOOP_29_1_angles_V_ROM_AUTO_1R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordiccart2pol_cordiccart2pol_Pipeline_VITIS_LOOP_29_1_angles_V_ROM_AUTO_1R
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/cordiccart2pol_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordiccart2pol_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/cordiccart2pol_mul_mul_16s_12ns_28_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordiccart2pol_mul_mul_16s_12ns_28_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module cordiccart2pol_mul_mul_16s_12ns_28_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.cordiccart2pol_cordiccart2pol_Pi...
+Compiling module xil_defaultlib.cordiccart2pol_flow_control_loop...
+Compiling module xil_defaultlib.cordiccart2pol_cordiccart2pol_Pi...
+Compiling module xil_defaultlib.cordiccart2pol_control_s_axi
+Compiling module xil_defaultlib.cordiccart2pol_mul_mul_16s_12ns_...
+Compiling module xil_defaultlib.cordiccart2pol_mul_mul_16s_12ns_...
+Compiling module xil_defaultlib.cordiccart2pol
+Compiling module xil_defaultlib.AESL_axi_slave_control
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_cordiccart2pol_top
+Compiling module work.glbl
+Built simulation snapshot cordiccart2pol
+
+****** xsim v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+start_gui
+INFO: [Common 17-206] Exiting xsim at Fri Nov 11 18:37:32 2022...

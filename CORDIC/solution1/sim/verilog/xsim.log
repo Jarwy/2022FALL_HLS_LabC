@@ -1,0 +1,182 @@
+#-----------------------------------------------------------
+# xsim v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Nov 11 18:13:09 2022
+# Process ID: 10496
+# Current directory: E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog
+# Command line: xsim.exe -source {xsim.dir/cordiccart2pol/xsim_script.tcl}
+# Log file: E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/xsim.log
+# Journal file: E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog\xsim.jou
+# Running On: DESKTOP-59J2FSP, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 2, Host memory: 17061 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/cordiccart2pol/xsim_script.tcl
+# set_param project.enableReportConfiguration 0
+# load_feature core
+# current_fileset
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/au280/es1/1.0/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.1 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/au280/es1/1.1/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/vck190/es/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.1 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/vck190/es/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at E:/Xilinx_2021.2/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129_es:part0:1.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/vcu129/es/1.0/board.xml as part xcvu29p-fsga2577-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/vmk180/es/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.1 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/vmk180/es/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at E:/Xilinx_2021.2/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Xilinx_2021.2/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/boards/board_files/kv260/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at E:/Xilinx_2021.2/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx_2021.2/Vivado/2021.2/data/ip'.
+current_fileset: Time (s): cpu = 00:00:28 ; elapsed = 00:00:15 . Memory (MB): peak = 1587.078 ; gain = 0.000
+# xsim {cordiccart2pol} -view {{cordiccart2pol_dataflow_ana.wcfg}} -tclbatch {cordiccart2pol.tcl} -protoinst {cordiccart2pol.protoinst}
+INFO: [Wavedata 42-565] Reading protoinst file cordiccart2pol.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol//AESL_inst_cordiccart2pol_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/grp_cordiccart2pol_Pipeline_VITIS_LOOP_29_1_fu_96/grp_cordiccart2pol_Pipeline_VITIS_LOOP_29_1_fu_96_activity
+Time resolution is 1 ps
+open_wave_config cordiccart2pol_dataflow_ana.wcfg
+source cordiccart2pol.tcl
+## log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set return_group [add_wave_group return(axi_slave) -into $coutputgroup]
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/ap_local_block -into $return_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set x__y__r__theta__ap_local_deadlock_group [add_wave_group x__y__r__theta__ap_local_deadlock(axi_slave) -into $cinputgroup]
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_BRESP -into $x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_BREADY -into $x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_BVALID -into $x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_RRESP -into $x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_RDATA -into $x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_RREADY -into $x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_RVALID -into $x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_ARREADY -into $x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_ARVALID -into $x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_ARADDR -into $x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_WSTRB -into $x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_WDATA -into $x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_WREADY -into $x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_WVALID -into $x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_AWREADY -into $x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_AWVALID -into $x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/s_axi_control_AWADDR -into $x__y__r__theta__ap_local_deadlock_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/ap_start -into $blocksiggroup
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/ap_done -into $blocksiggroup
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/ap_idle -into $blocksiggroup
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/ap_rst_n -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_cordiccart2pol_top/AESL_inst_cordiccart2pol/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_cordiccart2pol_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/LENGTH_x -into $tb_portdepth_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/LENGTH_y -into $tb_portdepth_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/LENGTH_r -into $tb_portdepth_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/LENGTH_theta -into $tb_portdepth_group -radix hex
+## set tbcoutputgroup [add_wave_group "C Outputs" -into $testbenchgroup]
+## set tb_return_group [add_wave_group return(axi_slave) -into $tbcoutputgroup]
+## add_wave /apatb_cordiccart2pol_top/ap_local_block -into $tb_return_group -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_x__y__r__theta__ap_local_deadlock_group [add_wave_group x__y__r__theta__ap_local_deadlock(axi_slave) -into $tbcinputgroup]
+## add_wave /apatb_cordiccart2pol_top/control_BRESP -into $tb_x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_BREADY -into $tb_x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_BVALID -into $tb_x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_RRESP -into $tb_x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_RDATA -into $tb_x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_RREADY -into $tb_x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_RVALID -into $tb_x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_ARREADY -into $tb_x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_ARVALID -into $tb_x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_ARADDR -into $tb_x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_WSTRB -into $tb_x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_WDATA -into $tb_x__y__r__theta__ap_local_deadlock_group -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_WREADY -into $tb_x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_WVALID -into $tb_x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_AWREADY -into $tb_x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_AWVALID -into $tb_x__y__r__theta__ap_local_deadlock_group -color #ffff00 -radix hex
+## add_wave /apatb_cordiccart2pol_top/control_AWADDR -into $tb_x__y__r__theta__ap_local_deadlock_group -radix hex
+## save_wave_config cordiccart2pol.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 50 [0.00%] @ "125000"
+// RTL Simulation : 1 / 50 [95.65%] @ "745000"
+// RTL Simulation : 2 / 50 [91.30%] @ "1335000"
+// RTL Simulation : 3 / 50 [91.30%] @ "1935000"
+// RTL Simulation : 4 / 50 [91.30%] @ "2535000"
+// RTL Simulation : 5 / 50 [91.30%] @ "3135000"
+// RTL Simulation : 6 / 50 [91.30%] @ "3735000"
+// RTL Simulation : 7 / 50 [91.30%] @ "4335000"
+// RTL Simulation : 8 / 50 [91.30%] @ "4935000"
+// RTL Simulation : 9 / 50 [91.30%] @ "5535000"
+// RTL Simulation : 10 / 50 [91.30%] @ "6135000"
+// RTL Simulation : 11 / 50 [91.30%] @ "6735000"
+// RTL Simulation : 12 / 50 [91.30%] @ "7335000"
+// RTL Simulation : 13 / 50 [91.30%] @ "7935000"
+// RTL Simulation : 14 / 50 [91.30%] @ "8535000"
+// RTL Simulation : 15 / 50 [91.30%] @ "9135000"
+// RTL Simulation : 16 / 50 [91.30%] @ "9735000"
+// RTL Simulation : 17 / 50 [91.30%] @ "10335000"
+// RTL Simulation : 18 / 50 [91.30%] @ "10935000"
+// RTL Simulation : 19 / 50 [91.30%] @ "11535000"
+// RTL Simulation : 20 / 50 [91.30%] @ "12135000"
+// RTL Simulation : 21 / 50 [91.30%] @ "12735000"
+// RTL Simulation : 22 / 50 [91.30%] @ "13335000"
+// RTL Simulation : 23 / 50 [91.30%] @ "13935000"
+// RTL Simulation : 24 / 50 [91.30%] @ "14535000"
+// RTL Simulation : 25 / 50 [91.30%] @ "15135000"
+// RTL Simulation : 26 / 50 [91.30%] @ "15735000"
+// RTL Simulation : 27 / 50 [91.30%] @ "16335000"
+// RTL Simulation : 28 / 50 [91.30%] @ "16935000"
+// RTL Simulation : 29 / 50 [91.30%] @ "17535000"
+// RTL Simulation : 30 / 50 [91.30%] @ "18135000"
+// RTL Simulation : 31 / 50 [91.30%] @ "18735000"
+// RTL Simulation : 32 / 50 [91.30%] @ "19335000"
+// RTL Simulation : 33 / 50 [91.30%] @ "19935000"
+// RTL Simulation : 34 / 50 [91.30%] @ "20535000"
+// RTL Simulation : 35 / 50 [91.30%] @ "21135000"
+// RTL Simulation : 36 / 50 [91.30%] @ "21735000"
+// RTL Simulation : 37 / 50 [91.30%] @ "22335000"
+// RTL Simulation : 38 / 50 [91.30%] @ "22935000"
+// RTL Simulation : 39 / 50 [91.30%] @ "23535000"
+// RTL Simulation : 40 / 50 [91.30%] @ "24135000"
+// RTL Simulation : 41 / 50 [91.30%] @ "24735000"
+// RTL Simulation : 42 / 50 [91.30%] @ "25335000"
+// RTL Simulation : 43 / 50 [91.30%] @ "25935000"
+// RTL Simulation : 44 / 50 [91.30%] @ "26535000"
+// RTL Simulation : 45 / 50 [91.30%] @ "27135000"
+// RTL Simulation : 46 / 50 [91.30%] @ "27735000"
+// RTL Simulation : 47 / 50 [91.30%] @ "28335000"
+// RTL Simulation : 48 / 50 [91.30%] @ "28935000"
+// RTL Simulation : 49 / 50 [91.30%] @ "29535000"
+// RTL Simulation : 50 / 50 [100.00%] @ "30135000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 30195 ns : File "E:/NTU/111_1/HLS/LabC/CORDIC/solution1/sim/verilog/cordiccart2pol.autotb.v" Line 348
+xsim: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 1587.078 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Nov 11 18:37:32 2022...

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="cordiccart2pol.cpp" path="E:\NTU\111_1\HLS\LabC\CORDIC\solution1\cordiccart2pol.cpp"/>
+    <originFiles name="cordiccart2pol.h" path="E:\NTU\111_1\HLS\LabC\CORDIC\solution1\cordiccart2pol.h"/>
+  </source>
+  <testbench>
+    <originFiles name="cordiccart2pol_test.cpp" path="E:\NTU\111_1\HLS\LabC\CORDIC\solution1\cordiccart2pol_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
